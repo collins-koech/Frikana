@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}

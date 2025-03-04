@@ -1,0 +1,263 @@
+.nav-bar{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;;
+    padding-top: 1rem;
+    display: flex;
+}
+#frikana-logo{
+    margin-left: 10rem;
+    padding-top: 1rem;
+
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 16rem;
+    > li{
+        padding: 1rem;
+    }
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+a:hover{
+    transition: 0.5s ease-in-out;
+    
+    color: aqua;
+}
+#home{
+    position: relative;
+    padding-top: 1rem;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    padding-top: 4rem;
+    font-family: "Atkinson Hyperlegible Next";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.plane{
+    border: 1px solid black;
+    margin-left: 12rem;
+    margin-top: 1rem;
+    width: 70vw;
+    height: 45vh;
+    background-color: black;
+    border-radius: 150px;
+    z-index: -1;
+
+}
+.inner-plane{
+    border: 1px solid white;
+    background-color: red;
+    width: 65vw;
+    height: 40vh;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+}
+.content{
+    margin-top: 2rem;
+    padding-left: 1rem;
+    font-family: "Maven Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 17px;
+}
+#services{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    height: auto;
+}
+.heading-2{
+    text-align: center;
+    padding-bottom: 2rem;
+    >.p1{
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+    }  
+    .H2{
+        font-family: "Atkinson Hyperlegible Next";
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 35px;
+    }
+    .p2{
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+    }
+}
+.permits{
+    padding-top: 1rem;
+}
+.permit-pic{
+    display: grid;
+    grid-template-columns: 45rem auto;
+    gap: 30px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+
+}
+.words{
+    scale: .8; opacity:0;
+    animation: fade-in1 linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+
+    >#one{
+        margin-top: 5px;
+        padding-left: 16px;
+        width: 3vw;
+        border-radius: 50px;
+        font-family: "Montserrat", serif;
+        background-color: #289c43;
+        color: white;
+
+    }
+    h3{
+        font-family: "Atkinson Hyperlegible Next";
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
+    
+    }
+    .p3{
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+    }
+    .p4{
+        font-family: "Atkinson Hyperlegible Next";
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+
+    }
+}
+@keyframes fade-in1{
+    to {scale: 1; opacity:1;}
+}
+
+.side-pics{
+    display: flex;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    scale: .8; opacity:0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+    >.pic-1{
+        margin-right: -1rem;
+        width: 15vw;
+        height: 45vh;
+        border-radius: 100px;
+
+    }
+  
+    .pic-2{
+        margin-top: -6rem;
+        margin-left: -3rem;
+        width: 15vw;
+        height: 45vh; 
+        border-radius: 100px;
+    }
+    .pic-3{
+        margin-left: -3rem;
+        width: 15vw;
+        height: 45vh; 
+        border-radius: 100px;
+    }
+    img{
+        margin-top: 1px;
+        border-radius: 100px; 
+
+    }
+}@keyframes fade-in{
+
+    to {scale: 1; opacity:1;}
+}
+
+#contacts{
+    padding-top: 2rem;
+    padding-left: 6rem;
+    height: auto;
+    height: 200vh;
+
+    >h2{
+        font-family:  "Maven Pro", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+    }
+}
+.main-reason{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2rem;
+>.reason-1{
+    width: 25vw;
+    height: 55vh;
+    border-radius: 50px;
+    background-color: whitesmoke;
+}
+}
+.p5{
+    font-family: "Atkinson Hyperlegible Next";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}
+.circle-1,.circle-2,.circle-3{
+    border-radius: 100px;
+    width: 10vw;
+    height: 20vh;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    background-color: rgba(124, 179, 241, 0.582);
+    >.fa-phone{
+        margin:2.5rem 0 0 2.5rem ;
+        font-size: 50px;
+        color: white;
+    }
+    .fa-users{
+        margin:2.3rem 0 0 2.3rem ;
+        font-size: 50px;
+        color: white;
+    }
+    .fa-plane{
+        margin:2.5rem 0 0 2.8rem ;
+        font-size: 50px;
+        color: white;
+   
+    }
+}
+.circle-2{
+    background-color: #289c43;
+}
+.circle-3{
+    background-color: crimson;
+}
